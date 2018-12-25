@@ -1,3 +1,6 @@
 [submodule ".vim"]
 	path = .vim
 	url = https://github.com/und3rdg/.vim.git
+[submodule ".zprezto"]
+	path = .zprezto
+	url = https://github.com/und3rdg/zsh.git
