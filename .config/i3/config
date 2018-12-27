@@ -50,7 +50,7 @@ for_window [instance="dropdowncalc"] sticky enable
 
 # #---Starting External Scripts---# #
 # Setting the background:
-exec --no-startup-id feh --bg-scale ~/.config/wall.png
+exec --no-startup-id feh --bg-scale ~/.config/i3/wallpaper/dog.jpg
 # Starts dunst for notifications:
 exec --no-startup-id dunst
 # Composite manager:
@@ -103,7 +103,7 @@ bar {
       			inactive_workspace $darkblack $darkblack $white
         		urgent_workspace   $darkblack $darkblack $white
 		}
-	status_command i3blocks
+	status_command i3blocks -c ~/.config/i3/i3blocks.cfg
 	position top
 	mode dock
 	modifier None
