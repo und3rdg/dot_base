@@ -1,4 +1,4 @@
-# vim: filetype=i3
+# vim: filetype=i3 syn=sh
 #  _        _    ____  ____ ____
 # | |      / \  |  _ \| __ ) ___|
 # | |     / _ \ | |_) |  _ \___ \
@@ -116,7 +116,8 @@ bindsym $mod+Shift+Return	exec --no-startup-id samedir
 bindsym $mod+Shift+space 	floating toggle
 bindsym $mod+space		focus mode_toggle
 
-bindsym $mod+Escape		workspace prev
+bindsym $mod+Escape    layout toggle
+/* bindsym $mod+Escape		workspace prev */
 bindsym $mod+Shift+Escape 	exec --no-startup-id prompt "Exit i3?" "i3-msg exit"
 
 # bindsym $mod+BackSpace
