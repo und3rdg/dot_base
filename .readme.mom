@@ -70,7 +70,7 @@ The menu button (usually between the right Alt and Ctrl) is an alternative Super
 This is to make one-handing on laptops easier.
 .LIST OFF
 .PP
-If you'd like to change any of these keyboard changes, you need only open and change \f(CW~/.scripts/tools/remaps\fP.
+If you'd like to change any of these keyboard changes, you need only open and change \f(CW~/.config/i3/scripts/tools/remaps\fP.
 Actually, this should go without saying, but \fIeverything\fP here can easily be changed.
 .PP
 Additionally, while this isn't a part of i3, the default editing mode in the shell is using vi bindings.
@@ -92,8 +92,8 @@ If you just want black and white icons, you should actually just be able to unin
 .PP
 The i3blocks config is \f(CW~/.config/i3blocks/config\fP, which you can access by the
 terminal shortcut \f(CWcfib\fP. Notice that the config file refers to several module
-scripts in the \f(CW~/.scripts/\fP directory. You can read a summary of all of these
-scripts in the file \f(CW~/.scripts/SCRIPTS.md\fP.
+scripts in the \f(CW~/.config/i3/scripts/\fP directory. You can read a summary of all of these
+scripts in the file \f(CW~/.config/i3/scripts/SCRIPTS.md\fP.
 .HEADING 2 "Deeper Tutorials"
 .PP
 In addition to this guide and reading the dotfiles of programs manually, you
